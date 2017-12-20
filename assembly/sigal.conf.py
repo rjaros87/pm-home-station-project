@@ -7,7 +7,7 @@
 # Gallery title. Can be set here or as the '--title' option of the `sigal
 # build` command, or in the 'index.md' file of the source directory.
 # The priority order is: cli option > settings file > index.md file
-title = "Assembly of pm-station-usb"
+title = "Assembly of pm-home-station"
 
 # ---------------------
 # General configuration
@@ -27,7 +27,7 @@ destination = '.'
 theme = 'galleria'
 
 # Author. Used in the footer of the pages and in the author meta tag.
-author = 'pm-station-usb @ github.com'
+author = 'pm-home-station @ github.com'
 
 # Use originals in gallery (default: False). If True, this will bypass all
 # processing steps (resize, auto-orient, recompress, and any plugin-specific
@@ -169,7 +169,7 @@ output_filename = 'index.html'
 # use_assets_cdn = True
 
 # A list of links (tuples (title, URL))
-links = [('Back to pm-station-usb @ github.com', 'https://github.com/rjaros87/pm-station-usb#assembly-photos') ]
+links = [('Back to pm-home-station @ github.com', 'https://github.com/rjaros87/pm-home-station#assembly-photos') ]
 
 # Google Analytics tracking code (UA-xxxx-x)
 # google_analytics = ''
@@ -214,7 +214,7 @@ plugins = ['sigal.plugins.adjust', 'sigal.plugins.copyright' ]
 #            'sigal.plugins.upload_s3', 'sigal.plugins.media_page']
 
 # Add a copyright text on the image (default: '')
-copyright = "https://github.com/rjaros87/pm-station-usb & https://skowro.net (CC BY-NC)"
+copyright = "https://github.com/rjaros87/pm-home-station & https://skowro.net (CC BY-NC)"
 
 # Adjust the image after resizing it. A default value of 1.0 leaves the images
 # untouched.
